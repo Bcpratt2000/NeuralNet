@@ -19,8 +19,6 @@ public class Main {
 			Net[] languages = new Net[] { new Net("src/model/TrainingData/WallOfText.txt"),
 					new Net("src/model/TrainingData/German.txt") };
 
-			Net net = new Net();
-
 			while (true) {
 				System.out.println("\nEnter Input:");
 				inp = input.nextLine();
