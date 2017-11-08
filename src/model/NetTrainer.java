@@ -34,7 +34,7 @@ public class NetTrainer {
 		int indexInList;
 		
 		// counts the occurrences of every 2-3 character string in the file
-		for (int charLength = 2; charLength <= 8; charLength++) {
+		for (int charLength = 2; charLength <= 5; charLength++) {
 			for (int i = 0; i < trainingData.length() - charLength; i++) {
 				trainingBuffer = trainingData.substring(i, i + charLength);
 				indexInList = findInList(patterns, trainingBuffer);
